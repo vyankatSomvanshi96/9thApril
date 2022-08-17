@@ -23,7 +23,7 @@ public class ActionsClassSty {
 		
 		
 		aboutUs.click();   // using web drive method
-		act.moveToElement(aboutUs).perform();  // 1st way to click
+		act.moveToElement(aboutUs).perform();  // Using action class method --> 1st way to click
 		act.click().perform();   // 1st way to click
 		
 		

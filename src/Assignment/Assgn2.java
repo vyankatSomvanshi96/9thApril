@@ -22,7 +22,7 @@ public class Assgn2 {
 		
 		System.out.println(ss.getText());
 		Thread.sleep(1000);
-		
+		// I have made the change
 		driver.switchTo().frame("iframe_a");
 		Thread.sleep(1000);
 		
